@@ -11,7 +11,6 @@ from utils import load_Dict
 import codecs
 from multiprocessing.dummy import Pool as ThreadPool 
 
-url = 'http://www.chazidian.com/dict/peter/'
 
 def crawl_chazidian(word):
     try:
